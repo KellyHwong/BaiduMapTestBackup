@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1D4CAA209F2E840098D6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA0209F2E840098D6EB /* ViewController.swift */; };
+		1F1D4CAB209F2E840098D6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA1209F2E840098D6EB /* Assets.xcassets */; };
+		1F1D4CAC209F2E840098D6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA2209F2E840098D6EB /* LaunchScreen.storyboard */; };
+		1F1D4CAD209F2E840098D6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA4209F2E840098D6EB /* Main.storyboard */; };
+		1F1D4CAE209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA6209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodeld */; };
+		1F1D4CAF209F2E840098D6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA8209F2E840098D6EB /* AppDelegate.swift */; };
+		1F1D4CB0209F2E840098D6EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D4CA9209F2E840098D6EB /* Info.plist */; };
+		1F1D4CB2209F31C50098D6EB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D4CB1209F31C50098D6EB /* Podfile */; };
+		2AC0679D7F344B838BDC2387 /* libPods-BaiduMapTestBackup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F89CBE26ED486C96375764 /* libPods-BaiduMapTestBackup.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172BED8CBBB2A18FD4D57EA5 /* Pods-BaiduMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapTest/Pods-BaiduMapTest.release.xcconfig"; sourceTree = "<group>"; };
+		1F1D4C9F209F2E840098D6EB /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F1D4CA0209F2E840098D6EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F1D4CA1209F2E840098D6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1D4CA3209F2E840098D6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F1D4CA5209F2E840098D6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F1D4CA7209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaiduMapTestBackup.xcdatamodel; sourceTree = "<group>"; };
+		1F1D4CA8209F2E840098D6EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F1D4CA9209F2E840098D6EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1D4CB1209F31C50098D6EB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		1F4B8745209EE182004E1FD4 /* BaiduMapTestBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMapTestBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0A66F9DB97F63117E7EFC1 /* Pods-BaiduMapTestBackup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTestBackup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapTestBackup/Pods-BaiduMapTestBackup.debug.xcconfig"; sourceTree = "<group>"; };
+		4781899882383A4DB066976B /* Pods-BaiduMapTestBackup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTestBackup.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapTestBackup/Pods-BaiduMapTestBackup.release.xcconfig"; sourceTree = "<group>"; };
+		55E5F63545C41D528739766F /* Pods-BaiduMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMapTest/Pods-BaiduMapTest.debug.xcconfig"; sourceTree = "<group>"; };
+		59F89CBE26ED486C96375764 /* libPods-BaiduMapTestBackup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMapTestBackup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0324042D270B0881AA98F9 /* libPods-BaiduMapTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMapTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4B8742209EE182004E1FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC0679D7F344B838BDC2387 /* libPods-BaiduMapTestBackup.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0161444A19D724045878AF07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E5F63545C41D528739766F /* Pods-BaiduMapTest.debug.xcconfig */,
+				172BED8CBBB2A18FD4D57EA5 /* Pods-BaiduMapTest.release.xcconfig */,
+				2C0A66F9DB97F63117E7EFC1 /* Pods-BaiduMapTestBackup.debug.xcconfig */,
+				4781899882383A4DB066976B /* Pods-BaiduMapTestBackup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17531EE9D50C28BBCACC5318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0324042D270B0881AA98F9 /* libPods-BaiduMapTest.a */,
+				59F89CBE26ED486C96375764 /* libPods-BaiduMapTestBackup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F1D4C9E209F2E840098D6EB /* BaiduMapTestBackup */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D4C9F209F2E840098D6EB /* BMKSwiftDemo-Bridging-Header.h */,
+				1F1D4CA0209F2E840098D6EB /* ViewController.swift */,
+				1F1D4CA1209F2E840098D6EB /* Assets.xcassets */,
+				1F1D4CA2209F2E840098D6EB /* LaunchScreen.storyboard */,
+				1F1D4CA4209F2E840098D6EB /* Main.storyboard */,
+				1F1D4CA6209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodeld */,
+				1F1D4CA8209F2E840098D6EB /* AppDelegate.swift */,
+				1F1D4CA9209F2E840098D6EB /* Info.plist */,
+				1F1D4CB1209F31C50098D6EB /* Podfile */,
+			);
+			path = BaiduMapTestBackup;
+			sourceTree = "<group>";
+		};
+		1F4B873C209EE182004E1FD4 = {
+			isa = PBXGroup;
+			children = (
+				1F1D4C9E209F2E840098D6EB /* BaiduMapTestBackup */,
+				1F4B8746209EE182004E1FD4 /* Products */,
+				0161444A19D724045878AF07 /* Pods */,
+				17531EE9D50C28BBCACC5318 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4B8746209EE182004E1FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4B8745209EE182004E1FD4 /* BaiduMapTestBackup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4B8744209EE182004E1FD4 /* BaiduMapTestBackup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4B875A209EE183004E1FD4 /* Build configuration list for PBXNativeTarget "BaiduMapTestBackup" */;
+			buildPhases = (
+				B1D723C0CC63B95E61DD304A /* [CP] Check Pods Manifest.lock */,
+				1F4B8741209EE182004E1FD4 /* Sources */,
+				1F4B8742209EE182004E1FD4 /* Frameworks */,
+				1F4B8743209EE182004E1FD4 /* Resources */,
+				BBDF9229521DB0AFDA81680C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapTestBackup;
+			productName = BaiduMapTest;
+			productReference = 1F4B8745209EE182004E1FD4 /* BaiduMapTestBackup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4B873D209EE182004E1FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Huang Kan";
+				TargetAttributes = {
+					1F4B8744209EE182004E1FD4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F4B8740209EE182004E1FD4 /* Build configuration list for PBXProject "BaiduMapTestBackup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4B873C209EE182004E1FD4;
+			productRefGroup = 1F4B8746209EE182004E1FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4B8744209EE182004E1FD4 /* BaiduMapTestBackup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4B8743209EE182004E1FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1D4CB2209F31C50098D6EB /* Podfile in Resources */,
+				1F1D4CB0209F2E840098D6EB /* Info.plist in Resources */,
+				1F1D4CAD209F2E840098D6EB /* Main.storyboard in Resources */,
+				1F1D4CAB209F2E840098D6EB /* Assets.xcassets in Resources */,
+				1F1D4CAC209F2E840098D6EB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1D723C0CC63B95E61DD304A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduMapTestBackup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDF9229521DB0AFDA81680C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapTestBackup/Pods-BaiduMapTestBackup-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMapTestBackup/Pods-BaiduMapTestBackup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4B8741209EE182004E1FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1D4CAF209F2E840098D6EB /* AppDelegate.swift in Sources */,
+				1F1D4CAE209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodeld in Sources */,
+				1F1D4CAA209F2E840098D6EB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F1D4CA2209F2E840098D6EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1D4CA3209F2E840098D6EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F1D4CA4209F2E840098D6EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1D4CA5209F2E840098D6EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4B8758209EE183004E1FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F4B8759209EE183004E1FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4B875B209EE183004E1FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0A66F9DB97F63117E7EFC1 /* Pods-BaiduMapTestBackup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJX5RA45KB;
+				INFOPLIST_FILE = "$(SRCROOT)/BaiduMapTestBackup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangkan.GripBeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/BaiduMapTestBackup/BMKSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4B875C209EE183004E1FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4781899882383A4DB066976B /* Pods-BaiduMapTestBackup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJX5RA45KB;
+				INFOPLIST_FILE = "$(SRCROOT)/BaiduMapTestBackup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangkan.GripBeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/BaiduMapTestBackup/BMKSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4B8740209EE182004E1FD4 /* Build configuration list for PBXProject "BaiduMapTestBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4B8758209EE183004E1FD4 /* Debug */,
+				1F4B8759209EE183004E1FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4B875A209EE183004E1FD4 /* Build configuration list for PBXNativeTarget "BaiduMapTestBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4B875B209EE183004E1FD4 /* Debug */,
+				1F4B875C209EE183004E1FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F1D4CA6209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F1D4CA7209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodel */,
+			);
+			currentVersion = 1F1D4CA7209F2E840098D6EB /* BaiduMapTestBackup.xcdatamodel */;
+			path = BaiduMapTestBackup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F4B873D209EE182004E1FD4 /* Project object */;
+}
