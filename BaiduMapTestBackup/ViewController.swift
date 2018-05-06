@@ -64,7 +64,26 @@ class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDe
         locationService.delegate = self
         _mapView?.delegate = self
         _mapView?.viewWillAppear()
-        
+        let annotation:BMKPointAnnotation = BMKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2DMake(39.915, 116.404)
+        annotation.title = "这里是北京"
+        _mapView?.addAnnotation(annotation)
+    }
+    
+    func mapView(mapView: BMKMapView!, viewForAnnotation annotation: BMKAnnotation!) -> BMKAnnotationView! {
+        if annotation.isKind(of: BMKPointAnnotation.self) {
+            let pointReuseIndentifier:String = "pointReuseIndentifier"
+            var annotationView:BMKPinAnnotationView? = mapView.dequeueReusableAnnotationView(withIdentifier: pointReuseIndentifier) as? BMKPinAnnotationView
+            if(annotationView == nil){
+                annotationView = BMKPinAnnotationView.init(annotation:annotation, reuseIdentifier:pointReuseIndentifier)
+            }
+            annotationView?.pinColor = UInt(BMKPinAnnotationColorPurple);
+            annotationView?.canShowCallout = true;      //设置气泡可以弹出，默认为NO
+            annotationView?.animatesDrop = true;         //设置标注动画显示，默认为NO
+            annotationView?.isDraggable = true;          //设置标注可以拖动，默认为NO
+            return annotationView;
+        }
+        return nil;
     }
     
     override func viewWillDisappear(_ animated: Bool) {
